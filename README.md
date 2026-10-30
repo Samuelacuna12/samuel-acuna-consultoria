@@ -1,6 +1,6 @@
 # Samuel Acuña — Consultoría empresarial
 
-Landing estática en español. HTML, CSS y JavaScript nativos, sin instalación ni compilación.
+Sitio estático en español con dos landings independientes. HTML, CSS y JavaScript nativos, sin instalación ni compilación.
 
 ## Vista local
 
@@ -18,7 +18,9 @@ Cada commit a main actualiza la página. Las rutas de recursos son relativas.
 - `app.js`: exclusividad de los seis pilares y año del pie.
 - `favicon.svg` y `social.png`: favicon y tarjeta social originales.
 
-Todos los botones de contacto abren el Instagram público @yosoysamuelacuna. No hay formularios, backend, analítica ni almacenamiento de datos. Las cifras de trayectoria son declaraciones profesionales de Samuel; no son garantías de resultados.
+La entrada `index.html` permite elegir entre dos landings independientes: `empresa.html` y `ventas.html`. Cada página presenta dolores y soluciones propios.
+
+Todos los botones de contacto abren WhatsApp al +57 300 035 7484, con un mensaje específico para el servicio. No hay formularios, backend, analítica ni almacenamiento de datos. Las cifras de trayectoria son declaraciones profesionales de Samuel; no son garantías de resultados.
 
 ## Revisión antes de publicar cambios
 
