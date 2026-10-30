@@ -16,3 +16,27 @@ if ('IntersectionObserver' in window && chapterLinks.length) {
   }, { rootMargin: '-12% 0px -65% 0px' });
   document.querySelectorAll('main > section[id]').forEach(section => observer.observe(section));
 }
+// Offer explorer: visible deliverables, keyboard-accessible detail panels.
+document.querySelectorAll('.offer-explorer').forEach(explorer => {
+  const tabs = [...explorer.querySelectorAll('[role="tab"]')];
+  const panels = [...explorer.querySelectorAll('[role="tabpanel"]')];
+  const select = (index, focus = false) => {
+    tabs.forEach((tab, i) => {
+      tab.setAttribute('aria-selected', String(i === index));
+      tab.tabIndex = i === index ? 0 : -1;
+      panels[i].hidden = i !== index;
+    });
+    if (focus) tabs[index].focus();
+  };
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => select(index));
+    tab.addEventListener('keydown', event => {
+      let next;
+      if (event.key === 'ArrowDown' || event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+      if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+      if (event.key === 'Home') next = 0;
+      if (event.key === 'End') next = tabs.length - 1;
+      if (next !== undefined) { event.preventDefault(); select(next, true); }
+    });
+  });
+});
