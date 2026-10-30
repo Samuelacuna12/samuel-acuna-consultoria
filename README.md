@@ -1,1 +1,25 @@
-IyBTYW11ZWwgQWN1w7FhIOKAlCBDb25zdWx0b3LDrWEgZW1wcmVzYXJpYWwKCkxhbmRpbmcgZXN0w6F0aWNhIGVuIGVzcGHDsW9sLiBIVE1MLCBDU1MgeSBKYXZhU2NyaXB0IG5hdGl2b3MsIHNpbiBpbnN0YWxhY2nDs24gbmkgY29tcGlsYWNpw7NuLgoKIyMgVmlzdGEgbG9jYWwKCkRlc2RlIGVzdGEgY2FycGV0YSBlamVjdXRhIGBweXRob24zIC1tIGh0dHAuc2VydmVyIDgwODBgIHkgYWJyZSBodHRwOi8vbG9jYWxob3N0OjgwODAuCgojIyBQdWJsaWNhY2nDs24KCkdpdEh1YiBQYWdlczogU2V0dGluZ3Mg4oaSIFBhZ2VzIOKGkiBEZXBsb3kgZnJvbSBhIGJyYW5jaCDihpIgbWFpbiDihpIgLyAocm9vdCkuCkNhZGEgY29tbWl0IGEgbWFpbiBhY3R1YWxpemEgbGEgcMOhZ2luYS4gTGFzIHJ1dGFzIGRlIHJlY3Vyc29zIHNvbiByZWxhdGl2YXMuCgojIyBFZGljacOzbgoKLSBgaW5kZXguaHRtbGA6IGNvbnRlbmlkbywgcHJlY2lvcywgbWV0YWRhdG9zIHkgZW5sYWNlcyBkZSBjb250YWN0by4KLSBgc3R5bGVzLmNzc2A6IGRpc2XDsW8gcmVzcG9uc2l2ZSB5IGFqdXN0ZXMgZGUgbW92aW1pZW50byByZWR1Y2lkby4KLSBgYXBwLmpzYDogZXhjbHVzaXZpZGFkIGRlIGxvcyBzZWlzIHBpbGFyZXMgeSBhw7FvIGRlbCBwaWUuCi0gYGZhdmljb24uc3ZnYCB5IGBzb2NpYWwucG5nYDogZmF2aWNvbiB5IHRhcmpldGEgc29jaWFsIG9yaWdpbmFsZXMuCgpUb2RvcyBsb3MgYm90b25lcyBkZSBjb250YWN0byBhYnJlbiBlbCBJbnN0YWdyYW0gcMO6YmxpY28gQHlvc295c2FtdWVsYWN1bmEuIE5vIGhheSBmb3JtdWxhcmlvcywgYmFja2VuZCwgYW5hbMOtdGljYSBuaSBhbG1hY2VuYW1pZW50byBkZSBkYXRvcy4gTGFzIGNpZnJhcyBkZSB0cmF5ZWN0b3JpYSBzb24gZGVjbGFyYWNpb25lcyBwcm9mZXNpb25hbGVzIGRlIFNhbXVlbDsgbm8gc29uIGdhcmFudMOtYXMgZGUgcmVzdWx0YWRvcy4KCiMjIFJldmlzacOzbiBhbnRlcyBkZSBwdWJsaWNhciBjYW1iaW9zCgpWZXJpZmljYXIgZXNjcml0b3JpbyB5IG3Ds3ZpbCwgbmF2ZWdhY2nDs24gZGUgdGVjbGFkbywgYXBlcnR1cmEgZGUgbGFzIHNlaXMgw6FyZWFzLCBlbmxhY2VzIGRlIEluc3RhZ3JhbSwgcHJlY2lvcyB5IGNvbmRpY2lvbmVzIGNvbWVyY2lhbGVzLiBBY3R1YWxpemFyIGNhbm9uaWNhbCB5IG1ldGFkYXRvcyBzb2NpYWxlcyBzaSBjYW1iaWEgbGEgVVJMIHDDumJsaWNhLgo=
+# Samuel Acuña — Consultoría empresarial
+
+Landing estática en español. HTML, CSS y JavaScript nativos, sin instalación ni compilación.
+
+## Vista local
+
+Desde esta carpeta ejecuta `python3 -m http.server 8080` y abre http://localhost:8080.
+
+## Publicación
+
+GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root).
+Cada commit a main actualiza la página. Las rutas de recursos son relativas.
+
+## Edición
+
+- `index.html`: contenido, precios, metadatos y enlaces de contacto.
+- `styles.css`: diseño responsive y ajustes de movimiento reducido.
+- `app.js`: exclusividad de los seis pilares y año del pie.
+- `favicon.svg` y `social.png`: favicon y tarjeta social originales.
+
+Todos los botones de contacto abren el Instagram público @yosoysamuelacuna. No hay formularios, backend, analítica ni almacenamiento de datos. Las cifras de trayectoria son declaraciones profesionales de Samuel; no son garantías de resultados.
+
+## Revisión antes de publicar cambios
+
+Verificar escritorio y móvil, navegación de teclado, apertura de las seis áreas, enlaces de Instagram, precios y condiciones comerciales. Actualizar canonical y metadatos sociales si cambia la URL pública.
