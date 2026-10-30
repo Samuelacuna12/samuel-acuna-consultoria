@@ -15,7 +15,7 @@ Cada commit a main actualiza la página. Las rutas de recursos son relativas.
 
 - `index.html`: contenido, precios, metadatos y enlaces de contacto.
 - `styles.css`: diseño responsive y ajustes de movimiento reducido.
-- `app.js`: exclusividad de los seis pilares y año del pie.
+- `app.js`: navegación por secciones, seis pilares, año del pie y explorador de entregables. En escritorio utiliza pestañas; en teléfono abre cada explicación debajo de su botón. Los detalles de la inicial se expanden de forma nativa.
 - `favicon.svg` y `social.png`: favicon y tarjeta social originales.
 
 La entrada `index.html` permite elegir entre dos landings independientes: `empresa.html` y `ventas.html`. Cada página presenta dolores y soluciones propios.
